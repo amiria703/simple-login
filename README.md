@@ -1,4 +1,4 @@
-# samplelogin
+# Simple Login
 
 ## Project setup
 ```
