@@ -5,7 +5,7 @@
         <br>
         <input type="password" name="password" id="password" placeholder="P@$$W0RD" :style="input">
         <br>
-        <button type="button" class="button" id="done" :style="input">Done!</button>
+        <input type="button" value="Done!" class="button" id="done" :style="input"/>
         <br>
         <img src="../assets/google.svg" alt="Login using Google">
         <img src="../assets/facebook.svg" alt="Login using Facebook">
@@ -23,6 +23,7 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     .main {
         background: rgba(255, 255, 255, 0.4);
         position: absolute;
@@ -35,6 +36,7 @@
         box-shadow: 0px 0px 10px 0px;
         padding-top: 3%;
         padding-bottom: 5%;
+        font-family: 'Poppins', sans-serif;
     }
 
     h1 {
@@ -51,6 +53,8 @@
         margin: 10px;
         width: 30%;
         box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
     }
 
     input:hover {
