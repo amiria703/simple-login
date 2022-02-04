@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Simple Login</title>
     <style>
       body {
@@ -17,6 +17,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 999;
       }
       #load {
         display: inline-block;
@@ -29,8 +30,8 @@
         width: 64px;
         height: 64px;
         border-radius: 50%;
-        border: 6px solid #7e11ad;
-        border-color: #7e11ad transparent #7e11ad transparent;
+        border: 6px solid hotpink;
+        border-color: hotpink transparent hotpink transparent;
         animation: load 1.2s linear infinite;
       }
       .hidden {
@@ -49,6 +50,9 @@
     </style>
   </head>
   <body>
+    <div id="white">
+      <div id="load"></div>
+    </div>
     <noscript>
       <div><strong>Looks like you have JS disabled...</strong></div>
       <div><strong>Please enable it to continue...</strong></div>
